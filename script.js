@@ -191,3 +191,11 @@ if(navClose) {
         navMenu.classList.remove('show-sidebar');
     })
 }
+
+const navLinks = document.querySelectorAll('.nav-link');
+
+navLinks.forEach(link => {
+  link.addEventListener('click', () => {
+    document.getElementById('sidebar').classList.remove('show-sidebar');
+  });
+});
