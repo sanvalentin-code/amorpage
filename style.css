@@ -569,19 +569,3 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
   z-index: 1000;
 }
 
-.sidebar {
-  position: fixed;
-  left: -100%;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  background: #111;
-  transition: 0.3s;
-  z-index: 999;
-}
-
-.show-sidebar {
-  left: 0;
-}
-
-
