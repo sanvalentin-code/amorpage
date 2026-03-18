@@ -142,20 +142,17 @@ button { cursor: pointer; }
 .nav-list { display: flex; flex-direction: row-reverse; margin: -2px auto 0 auto; }
 .nav-link { float: right; height: 100%; line-height: 100px; padding: 0 1rem; color: var(--title-color); font-weight: var(--font-medium); position: relative; transition: .4s; }
 .nav-toggle {
-    height: 32px;
-    width: 36px;
-    cursor: pointer;
-    position: fixed;
-    right: 1.5rem;
-    top: 2rem;
-    font-size: 1.2rem;
-    border-radius: .25rem;
-    background-color: var(--skin-color);
-    color: var(--title-color);
-    display: none;
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
+  position: fixed;
+  top: 15px;
+  left: 15px; /* o right si lo quieres del otro lado */
+  z-index: 1100;
+
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px;
+  background: rgba(0,0,0,0.6);
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
 }
 .nav-close { font-size: 1.5rem; position: absolute; top: 1rem; right: 1.25rem; cursor: pointer; display: none; }
     .nav-link.active-link, .nav-link:hover { color: var(--skin-color); }
