@@ -533,7 +533,7 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
 }
 
 .why-container {
-  display: grid;
+   display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
   max-width: 650px;
